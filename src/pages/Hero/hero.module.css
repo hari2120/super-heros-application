@@ -1,0 +1,101 @@
+
+.whole__container{
+margin-top: 50px;
+}
+.top_container{
+    height: auto;
+    display: flex;
+}
+.right__container{
+    margin: 20px;
+    color: rgb(138, 138, 138);
+
+}
+.hero_image{
+    width: auto;
+    height: 100%;
+    border-radius: 10px;
+}
+.figure__Image {
+    width: 400px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+
+  }
+  
+  .figure__Image:hover img {
+    opacity: 0;
+  }
+  
+  .figure__Image img {
+    display: block;
+    width: 100%;
+    pointer-events: none;
+  }
+  
+.bottom__container{
+    display: flex;
+    width: 100%;
+}
+.first__container{
+    width: 100%;
+    margin: 2px;
+    border: 1px solid rgb(228, 228, 228);
+}
+
+/* Right container of super Hero */
+.biography__name{
+    font-weight: 600;
+    color: rgb(202, 0, 0);
+}
+.biography_originalName strong {
+    color: rgb(80, 80, 80);
+}
+.publisher__details{
+    height: 50px;
+    margin: 50px 0 50px 0;
+}
+.publisher{
+    margin-bottom: 5px;
+    color: rgb(202, 0, 0);
+    font-weight: 800;
+}
+.hero__highlights{
+    width: 200px;
+
+}
+.hero_stats{
+    display: flex;
+    justify-content: space-between;
+}
+.highlight{
+    text-align: left;
+}
+.highlight strong{
+    margin-left: initial;
+}
+.occupation_container{
+    width: 400px;
+    padding-top: 10px;
+}
+.occupation__question{
+    font-size: 18px;
+}
+.occupation{
+    font-size: 30px;
+}
+
+/* Similar Posts... */
+.card_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.filterd__heading{
+    font-weight: 500;
+    text-decoration: underline;
+}
+.similar__post__heading{
+    font-weight: 800;
+    margin: 50px 0 50px 0;
+    border-bottom: 5px solid black;
+}
